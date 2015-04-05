@@ -30,7 +30,7 @@ There are two ways to run this code:
 
 If you wish to run the manual on it's own you'll need to:
 
-1. Have the ability to run an OpenBD server. We suggest using the [JettyDesktop launcher](https://github.com/aw20/jettydesktop) - instructions on use located at the [JettyDeskyop Wiki](https://github.com/aw20/jettydesktop/wiki)
+1. Have the ability to run an OpenBD server. We suggest using the [JettyDesktop launcher](https://github.com/aw20/jettydesktop) - instructions on use located at the [JettyDesktop Wiki](https://github.com/aw20/jettydesktop/wiki)
 2. Clone/Download the repository
 3. Download a copy of [OpenBD](http://openbd.org/downloads/), preferably the nightly build war file
     1. Download the war file
