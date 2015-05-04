@@ -206,6 +206,26 @@ Print is similar to <a href="./?/function/writeoutput">WriteOutput()</a> functio
 </cfsavecontent>
 <pre class="cfml"><cfoutput>#XmlFormat(t)#</cfoutput></pre><br>
 
+<h3>load()</h3>
+<p>
+	Loads in an external file that has JavaScript defined in it. This is like the JavaScript version of <a href="./?/function/renderinclude">renderInclude</a>
+</p>
+<p>
+	This lets you place JS in separate files and load as needed, cutting down on code duplication and clutter.
+</p>
+<cfsavecontent variable="t" trim="true"><nocfml>
+<cfset myAwesomeVar = { name: "Marcus", isAwesome: true }>
+<cfscript language="javascript">
+	// Absolute paths are necessary
+	load('C:\myjsfile.js');
+
+	// Here in conjunction with CFML expandPath() to load a file in the root directory of the application.
+	load($cf.expandPath('myjsfile.js'));
+</cfscript>
+</nocfml>
+</cfsavecontent>
+<pre class="cfml"><cfoutput>#XmlFormat(t)#</cfoutput></pre><br>
+
 <h3>Core CFML function</h3>
 
 <cfsavecontent variable="t" trim="true"><nocfml>
