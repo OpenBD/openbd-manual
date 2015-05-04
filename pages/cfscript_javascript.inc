@@ -154,7 +154,7 @@ As discussed the <code>$cf</code> is a global variable that lets you interact wi
 
 <h3>print</h3>
 <p>
-Print is similar to <a href="">WriteOutput()</a> function letting you quickly output to the browser window.
+Print is similar to <a href="./?/function/writeoutput">WriteOutput()</a> function letting you quickly output to the browser window.
 </p>
 <cfsavecontent variable="t" trim="true"><nocfml>
 <cfscript language="javascript">
@@ -166,7 +166,7 @@ Print is similar to <a href="">WriteOutput()</a> function letting you quickly ou
 
 <h3>console()</h3>
 <p>
-	This is similar to <a href="">Console()</a> function letting you quickly output to the debugging console.
+	This is similar to <a href="./?/function/console">Console()</a> function letting you quickly output to the debugging console.
 </p>
 <cfsavecontent variable="t" trim="true"><nocfml>
 <cfscript language="javascript">
