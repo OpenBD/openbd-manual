@@ -214,7 +214,6 @@ Print is similar to <a href="./?/function/writeoutput">WriteOutput()</a> functio
 	This lets you place JS in separate files and load as needed, cutting down on code duplication and clutter.
 </p>
 <cfsavecontent variable="t" trim="true"><nocfml>
-<cfset myAwesomeVar = { name: "Marcus", isAwesome: true }>
 <cfscript language="javascript">
 	// Absolute paths are necessary
 	load('C:\myjsfile.js');
