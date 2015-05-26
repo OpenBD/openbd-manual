@@ -25,7 +25,7 @@ To proxy a remote URL, then set the type to "http" and pass in the remote URL.  
 &lt;cfset remote={
   type : "http",
   url : "http://openbd.org/manual/images/logo.png"
-}> /&gt;
+} /&gt;
 
 &lt;cfcontent remote="#remote#" /&gt;
 </pre>
@@ -43,7 +43,7 @@ You can proxy a remote Amazon S3 resource, by setting type to "s3".  The Amazon 
   bucket : "your-bucket",
   key : "a/b/c/yourkey.jpg",
 	aes256key : "optional"
-}> /&gt;
+} /&gt;
 
 &lt;cfcontent remote="#remote#" /&gt;
 </pre>
